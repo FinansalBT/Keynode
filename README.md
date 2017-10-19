@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AppLocker
 =========
 
@@ -43,3 +44,34 @@ Eclipse
 Sorry eclipse users, I switched to Android Studio, and you should too, it [looks like](http://developer.android.com/tools/help/adt.html) eclipse will be updated a lot less frequently if it will be at all:
 
 > Note: If you have been using Eclipse with ADT, be aware that Android Studio is now the official IDE for Android, so you should migrate to Android Studio to receive all the latest IDE updates. For help moving projects, see Migrating to Android Studio.
+=======
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
+>>>>>>> d7303e5a4065e5ceaf12dd2458f8b45b7ee88e45
