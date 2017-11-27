@@ -88,7 +88,8 @@ public class AppAdapter extends BaseAdapter {
 	public interface OnEventListener {
 		public void onLoadComplete();
 
-		public void onDirtyStateChanged(boolean dirty);
+		public void onDirtySta
+		teChanged(boolean dirty);
 	}
 
 	public boolean areAllAppsLocked() {
