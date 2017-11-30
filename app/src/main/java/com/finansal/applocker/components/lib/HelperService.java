@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.components.lib;
+package com.finansal.applocker.components.lib;
 
 import android.app.PendingIntent;
 import android.app.Service;

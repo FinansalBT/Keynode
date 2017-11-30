@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.plugin;
+package com.finansal.applocker.plugin;
 
 import java.util.ArrayList;
 import java.util.List;

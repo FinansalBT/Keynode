@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker
+package com.finansal.applocker
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.elmasteknoloji.applocker", appContext.packageName)
+        assertEquals("com.finansal.applocker", appContext.packageName)
     }
 }

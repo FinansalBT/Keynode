@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker
+package com.finansal.applocker
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker
+package com.finansal.applocker
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.components.lib;
+package com.finansal.applocker.components.lib;
 
 import android.content.Context;
 import android.content.res.TypedArray;
