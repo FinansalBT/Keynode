@@ -56,7 +56,7 @@ public class AppsFragment extends Fragment implements OnItemClickListener,
 		if (item.isApp()) {
 			mAdapter.toggle(item);
 			showToastSingle(item.locked, item.title);
-			// Update lock image
+			// Update lib image
 			view.findViewById(R.id.applist_item_image).setVisibility(
 					item.locked ? View.VISIBLE : View.GONE);
 

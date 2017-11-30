@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.lockapp.lock;
+package com.elmasteknoloji.applocker.components.lib;
 
 import android.app.PendingIntent;
 import android.app.Service;

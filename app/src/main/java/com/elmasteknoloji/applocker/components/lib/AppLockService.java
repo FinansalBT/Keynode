@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.lockapp.lock;
+package com.elmasteknoloji.applocker.components.lib;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
@@ -39,16 +39,16 @@ public class AppLockService extends Service {
      * Sent to {@link MainActivity} when the service has been completely started
      * and is running
      */
-    public static final String BROADCAST_SERVICE_STARTED = "com.colornative.lockapp.intent.action.service_started";
+    public static final String BROADCAST_SERVICE_STARTED = "com.colornative.components.intent.action.service_started";
     /**
      * Sent to {@link MainActivity} when the service has been stopped
      */
-    public static final String BROADCAST_SERVICE_STOPPED = "com.colornative.lockapp.intent.action.service_stopped";
+    public static final String BROADCAST_SERVICE_STOPPED = "com.colornative.components.intent.action.service_stopped";
     /**
      * This category allows the receiver to receive actions relating to the
      * state of the service, such as when it is started or stopped
      */
-    public static final String CATEGORY_STATE_EVENTS = "com.colornative.lockapp.intent.category.service_start_stop_event";
+    public static final String CATEGORY_STATE_EVENTS = "com.colornative.components.intent.category.service_start_stop_event";
 
     private static final int REQUEST_CODE = 0x1234AF;
     public static final int NOTIFICATION_ID = 0xABCD32;
@@ -57,20 +57,20 @@ public class AppLockService extends Service {
     /**
      * Use this action to stop the intent
      */
-    private static final String ACTION_STOP = "com.colornative.lockapp.intent.action.stop_lock_service";
+    private static final String ACTION_STOP = "com.colornative.components.intent.action.stop_lock_service";
     /**
      * Starts the alarm
      */
-    private static final String ACTION_START = "com.colornative.lockapp.intent.action.start_lock_service";
+    private static final String ACTION_START = "com.colornative.components.intent.action.start_lock_service";
     /**
      * When specifying this action, the service will initialize everything
      * again.<br>
      * This has only effect if the service was explicitly started using
      * {@link #getRunIntent(Context)}
      */
-    private static final String ACTION_RESTART = "com.colornative.lockapp.intent.action.restart_lock_service";
+    private static final String ACTION_RESTART = "com.colornative.components.intent.action.restart_lock_service";
 
-    private static final String EXTRA_FORCE_RESTART = "com.colornative.lockapp.intent.extra.force_restart";
+    private static final String EXTRA_FORCE_RESTART = "com.colornative.components.intent.extra.force_restart";
     private ActivityManager mActivityManager;
 
 //    private AdMobInterstitialHelper mInterstitialHelper;
@@ -287,7 +287,7 @@ public class AppLockService extends Service {
         }
 
         if (mLockedPackages.containsKey(open)) {
-            // The newly opened app needs a lock screen, so don't hide previous
+            // The newly opened app needs a lib screen, so don't hide previous
             return;
         }
         LockService.hide(this);
@@ -318,7 +318,7 @@ public class AppLockService extends Service {
     }
 
     /**
-     * This class will re-lock an app
+     * This class will re-lib an app
      */
     private class RelockRunnable implements Runnable {
         private final String mPackageName;

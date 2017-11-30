@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.lockapp.receivers;
+package com.elmasteknoloji.applocker.components.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

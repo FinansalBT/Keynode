@@ -32,7 +32,7 @@ public class MainActivity extends ActionBarActivity implements
 //	private static final String VERSION_URL_DBG = "https://twinone.org/apps/locker/dbg-update.php";
 //	public static final String VERSION_URL = Constants.DEBUG ? VERSION_URL_DBG
 //			: VERSION_URL_PRD;
-	private static final String EXTRA_UNLOCKED = "com.colornative.lockapp.unlocked";
+	private static final String EXTRA_UNLOCKED = "com.colornative.components.unlocked";
 
 	private DialogSequencer mSequencer;
 	private Fragment mCurrentFragment;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.elmasteknoloji.applocker.lockapp.lock;
+package com.elmasteknoloji.applocker.components.lib;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -65,7 +65,7 @@ public class PatternView extends View {
 	// static final int STATUS_BAR_HEIGHT = 25;
 
 	/**
-	 * How many milliseconds we spend animating each circle of a lock pattern if
+	 * How many milliseconds we spend animating each circle of a lib pattern if
 	 * the animating mode is set. The entire animation should take this constant
 	 * * the length of the pattern to complete.
 	 */
@@ -1319,7 +1319,7 @@ public class PatternView extends View {
 	}
 
 	/**
-	 * The parecelable for saving and restoring a lock pattern view.
+	 * The parecelable for saving and restoring a lib pattern view.
 	 */
 	private static class SavedState extends BaseSavedState {
 

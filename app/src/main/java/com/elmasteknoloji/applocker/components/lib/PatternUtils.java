@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.elmasteknoloji.applocker.lockapp.lock;
+package com.elmasteknoloji.applocker.components.lib;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;

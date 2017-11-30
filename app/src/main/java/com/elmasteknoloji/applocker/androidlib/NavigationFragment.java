@@ -219,7 +219,7 @@ public abstract class NavigationFragment extends Fragment {
 	private boolean mHomeButtonLocked = false;
 
 	/**
-	 * Set the lock mode for the home button in the ActionBar<br>
+	 * Set the lib mode for the home button in the ActionBar<br>
 	 * true if you want the action bar button to be ignored
 	 */
     void setHomeButtonLocked(boolean locked) {

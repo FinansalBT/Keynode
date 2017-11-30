@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.util;
+package com.elmasteknoloji.applocker.plugin;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -35,9 +35,9 @@ import com.colornative.lockapp.R;
 public class VersionChecker extends AsyncTask<String, Void, VersionChecker.VersionInfo> {
 
 	private static final String PREF_FILE_NAME = "com.colornative.version";
-	private static final String PREF_KEY_DEPRECATED_VERSION = "com.colornative.util.version.deprecated_version";
-	private static final String PREF_KEY_AVAILABLE_VERSION = "com.colornative.util.version.current_version";
-	private static final String PREF_KEY_LAST_CHECK = "com.colornative.util.version.last_check";
+	private static final String PREF_KEY_DEPRECATED_VERSION = "com.colornative.plugin.version.deprecated_version";
+	private static final String PREF_KEY_AVAILABLE_VERSION = "com.colornative.plugin.version.current_version";
+	private static final String PREF_KEY_LAST_CHECK = "com.colornative.plugin.version.last_check";
 
 	/**
 	 * If this flag is set, the user will not be allowed to use the app if it's
@@ -318,7 +318,7 @@ public class VersionChecker extends AsyncTask<String, Void, VersionChecker.Versi
 		try {
 
 			// The VersionInfo
-			byte[] viInputBytes = ("com.colornative.lockapp " + vi.current + " " + vi.deprecated)
+			byte[] viInputBytes = ("com.colornative.components " + vi.current + " " + vi.deprecated)
 					.getBytes("UTF-8");
 			MessageDigest md = MessageDigest.getInstance("MD5");
 			byte[] viDigest = md.digest(viInputBytes);

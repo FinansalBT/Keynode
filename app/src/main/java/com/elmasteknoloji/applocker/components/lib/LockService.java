@@ -1,4 +1,4 @@
-package com.elmasteknoloji.applocker.lockapp.lock;
+package com.elmasteknoloji.applocker.components.lib;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
@@ -232,7 +232,7 @@ public class LockService extends Service implements View.OnClickListener,
     }
 
     /**
-     * Get the lock intent (no options are provided)
+     * Get the lib intent (no options are provided)
      *
      * @param c
      * @param packageName
