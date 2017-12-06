@@ -1,4 +1,4 @@
-package com.finansal.applocker.plugin;
+package com.finansal.keynode.plugin;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

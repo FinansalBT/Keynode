@@ -1,4 +1,4 @@
-package com.finansal.applocker
+package com.finansal.keynode
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.finansal.applocker.plugin;
+package com.finansal.keynode.plugin;
 
 import java.util.ArrayList;
 import java.util.List;

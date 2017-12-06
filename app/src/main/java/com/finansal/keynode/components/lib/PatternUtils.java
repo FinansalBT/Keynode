@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.finansal.applocker.components.lib;
+package com.finansal.keynode.components.lib;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;

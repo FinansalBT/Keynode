@@ -1,4 +1,4 @@
-package com.finansal.applocker.components.lib;
+package com.finansal.keynode.components.lib;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;

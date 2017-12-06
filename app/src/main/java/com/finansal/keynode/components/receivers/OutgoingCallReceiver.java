@@ -1,4 +1,4 @@
-package com.finansal.applocker.components.receivers;
+package com.finansal.keynode.components.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

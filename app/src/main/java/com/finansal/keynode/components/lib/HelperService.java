@@ -1,4 +1,4 @@
-package com.finansal.applocker.components.lib;
+package com.finansal.keynode.components.lib;
 
 import android.app.PendingIntent;
 import android.app.Service;
