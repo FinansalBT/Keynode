@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.colornative.lockapp"
+    package="com.colornative.plugin"
     android:versionCode="1"
     android:versionName="1.1.0">
 
@@ -62,7 +62,7 @@
 
         <!-- No history causes background change not working (because of startActivityForResult() -->
         <activity
-            android:name="com.colornative.lockapp.ui.MainActivity"
+            android:name="com.colornative.plugin.ui.MainActivity"
             android:configChanges="orientation|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/application_name"
@@ -74,38 +74,38 @@
         </activity>
 
         <activity-alias
-            android:name="com.colornative.lockapp.MainActivityAlias"
+            android:name="com.colornative.plugin.MainActivityAlias"
             android:enabled="true"
             android:label="@string/application_name"
-            android:targetActivity="com.colornative.lockapp.ui.MainActivity">
+            android:targetActivity="com.colornative.plugin.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity-alias>
-        <activity android:name="com.colornative.lockapp.util.LaunchInterstitialActivity"/>
+        <activity android:name="com.colornative.plugin.util.LaunchInterstitialActivity"/>
 
-        <service android:name="com.colornative.lockapp.lock.AppLockService" />
-        <service android:name="com.colornative.lockapp.lock.LockService" />
-        <service android:name="com.colornative.lockapp.lock.HelperService" />
+        <service android:name="com.colornative.plugin.lock.AppLockService" />
+        <service android:name="com.colornative.plugin.lock.LockService" />
+        <service android:name="com.colornative.plugin.lock.HelperService" />
 
-        <receiver android:name="com.colornative.lockapp.receivers.OutgoingCallReceiver">
+        <receiver android:name="com.colornative.plugin.receivers.OutgoingCallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.colornative.lockapp.receivers.BootCompleteReceiver">
+        <receiver android:name="com.colornative.plugin.receivers.BootCompleteReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.colornative.lockapp.receivers.NetworkStateReceiver">
+        <receiver android:name="com.colornative.plugin.receivers.NetworkStateReceiver">
             <intent-filter>
                 <action android:name="android.net.wifi.STATE_CHANGE" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.colornative.lockapp.version.Receiver">
+        <receiver android:name="com.colornative.plugin.version.Receiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
