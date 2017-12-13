@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/AppLocker-master.iml" filepath="$PROJECT_DIR$/AppLocker-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+=======
+      <module fileurl="file://C:\Users\sdemirbash\Desktop\applocker-master\Applocker.iml" filepath="C:\Users\sdemirbash\Desktop\applocker-master\Applocker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applocker-master.iml" filepath="$PROJECT_DIR$/applocker-master.iml" />
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca
     </modules>
   </component>
 </project>

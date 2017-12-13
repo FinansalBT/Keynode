@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
@@ -350,3 +351,8 @@
     <string name="lib_share_never">No thanks</string>
     <string name="lib_share_later">Later</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">Applocker</string>
+</resources>
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca

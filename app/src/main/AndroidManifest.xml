@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.colornative.plugin"
     android:versionCode="1"
     android:versionName="1.1.0">
@@ -78,11 +79,24 @@
             android:enabled="true"
             android:label="@string/application_name"
             android:targetActivity="com.colornative.plugin.ui.MainActivity">
+=======
+    package="com.finansal.keynode">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.finansal.keynode.MainActivity">
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
         </activity-alias>
         <activity android:name="com.colornative.plugin.util.LaunchInterstitialActivity"/>
 
@@ -113,3 +127,9 @@
     </application>
 
 </manifest>
+=======
+        </activity>
+    </application>
+
+</manifest>
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca
