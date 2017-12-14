@@ -23,7 +23,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.colornative.plugin.R;
+import com.colornative.lockapp.R;
 
 /**
  * View to be used at the bottom of a navigation, to provide share and rate.

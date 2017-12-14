@@ -21,7 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.colornative.plugin.R;
+import com.colornative.lockapp.R;
 
 public abstract class NavigationFragment extends Fragment {
 

@@ -5,7 +5,7 @@
 -->
 <resources>
 
-    <string name="application_name">App Locker</string>
+    <string name="application_name">Keynode</string>
 
     <!-- All strings for MainActivity -->
     <string name="main_share">Teilen</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-    <string name="application_name">App Locker</string>
+    <string name="application_name">Keynode</string>
 
     <!-- All strings for MainActivity -->
     <string name="main_share">همرسانی</string>
@@ -332,7 +332,7 @@
     <string name="lib_share_dlg_tit">همرسانی برنامه</string> 
     <string name="lib_share_dlg_msg">اگر برنامه را دوست داشتید آنرا با دوستان خود به اشتراک بگذارید.</string>
     <!-- May be used for twitter -->
-    <string name="share_promo_text">سری به برنامه رایگان Keynode  که امنیت شما و برنامه های شما را تامین میکند بزنید. https://play.google.com/store/apps/details?id=com.finansal.keynode</string>
+    <string name="share_promo_text">سری به برنامه رایگان Keynode  که امنیت شما و برنامه های شما را تامین میکند بزنید. https://play.google.com/store/apps/details?id=com.colornative.lockapp</string>
 
     <!-- BEGIN v2335 -->
     <string name="share_dlg_never">هرگز </string>

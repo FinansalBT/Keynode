@@ -5,7 +5,7 @@
     Added in Locker v1.0
     Author: TwinoneDevs
     -->
-    <string name="application_name">App Locker</string>
+    <string name="application_name">Keynode</string>
 
     <!-- All strings for MainActivity -->
     <string name="main_share">Delen</string>
@@ -328,7 +328,7 @@
     <string name="lib_share_dlg_tit">Locker delen</string>
     <string name="lib_share_dlg_msg">Als je deze app leuk vindt, overweeg dan hem te delen met je vrienden.</string>
     <!-- May be used for twitter -->
-    <string name="share_promo_text">Probeer Keynode, de gratis app die je privacy beschermt. https://play.google.com/store/apps/details?id=com.finansal.keynode</string>
+    <string name="share_promo_text">Probeer Keynode, de gratis app die je privacy beschermt. https://play.google.com/store/apps/details?id=com.colornative.lockapp</string>
 
     <!-- BEGIN v2335 -->
     <string name="share_dlg_never">Nooit</string>

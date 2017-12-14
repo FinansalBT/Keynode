@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
@@ -338,11 +337,7 @@
     <string name="lib_share_dlg_tit">Share Locker</string>
     <string name="lib_share_dlg_msg">If you like this app, consider helping improve it by sharing it with your friends.</string>
     <!-- May be used for twitter -->
-<<<<<<< HEAD
-    <string name="share_promo_text">Check out Keynode, the free app that protects your privacy and apps. https://play.google.com/store/apps/details?id=com.finansal.keynode</string>
-=======
     <string name="share_promo_text">Check out Keynode, the free app that protects your privacy and apps. https://play.google.com/store/apps/details?id=com.colornative.lockapp</string>
->>>>>>> 34089eed48db271305fe95e4c5636085ffabc453
 
     <!-- BEGIN v2335 -->
     <string name="share_dlg_never">Never</string>
@@ -355,8 +350,3 @@
     <string name="lib_share_never">No thanks</string>
     <string name="lib_share_later">Later</string>
 </resources>
-=======
-<resources>
-    <string name="app_name">Applocker</string>
-</resources>
->>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca

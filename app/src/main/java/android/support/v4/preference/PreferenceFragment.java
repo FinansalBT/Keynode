@@ -32,7 +32,7 @@ import android.view.View.OnKeyListener;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.colornative.plugin.R;
+import com.colornative.lockapp.R;
 
 public abstract class PreferenceFragment extends Fragment implements
         PreferenceManagerCompat.OnPreferenceTreeClickListener {
