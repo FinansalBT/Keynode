@@ -1,6 +1,16 @@
+<<<<<<< HEAD
+=======
+*.iml
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca
 .gradle
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
+<<<<<<< HEAD
 build
+=======
+/build
+/captures
+.externalNativeBuild
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca

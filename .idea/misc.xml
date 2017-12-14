@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
-  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
@@ -27,10 +24,45 @@
       </value>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> 5ea7d5493061c5e13348f560c2312f80d518362c
+>>>>>>> 40f0e49b86386588147d3e6e3b9f96c4555d233c
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca
+>>>>>>> 34089eed48db271305fe95e4c5636085ffabc453
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+>>>>>>> 992dcb47a88838fda5d8d4f08037e79047fb79ca
 </project>
