@@ -6,7 +6,7 @@ import com.colornative.lockapp.lock.AppLockService;
 import com.colornative.lockapp.lock.LockPreferences;
 import com.colornative.lockapp.lock.LockService;
 import com.colornative.lockapp.util.PrefUtils;
-import com.colornative.util.ChangeLog;
+import com.colornative.plugin.ChangeLog;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

@@ -3,8 +3,8 @@ package com.colornative.lockapp.ui;
 import com.colornative.lockapp.lock.LockPreferences;
 import com.colornative.lockapp.lock.LockService;
 import com.colornative.lockapp.util.PrefUtils;
-import com.colornative.util.Analytics;
-import com.colornative.util.DialogSequencer;
+import com.colornative.plugin.Analytics;
+import com.colornative.plugin.DialogSequencer;
 
 import android.app.AlertDialog;
 import android.content.Context;

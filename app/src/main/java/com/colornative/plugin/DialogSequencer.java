@@ -1,4 +1,4 @@
-package com.colornative.util;
+package com.colornative.plugin;
 
 import java.util.ArrayList;
 import java.util.List;

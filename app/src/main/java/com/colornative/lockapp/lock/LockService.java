@@ -37,7 +37,7 @@ import android.widget.Toast;
 
 import com.colornative.lockapp.util.PrefUtils;
 import com.colornative.lockapp.util.Util;
-import com.colornative.util.Analytics;
+import com.colornative.plugin.Analytics;
 import com.colornative.lockapp.R;
 
 import com.colornative.lockapp.lock.PasswordView.OnNumberListener;

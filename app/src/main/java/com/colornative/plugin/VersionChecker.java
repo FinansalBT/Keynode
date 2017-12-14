@@ -1,4 +1,4 @@
-package com.colornative.util;
+package com.colornative.plugin;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -10,7 +10,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
-import com.colornative.util.VersionChecker.VersionInfo;
+import com.colornative.plugin.VersionChecker.VersionInfo;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -35,9 +35,9 @@ import com.colornative.lockapp.R;
 public class VersionChecker extends AsyncTask<String, Void, VersionInfo> {
 
 	private static final String PREF_FILE_NAME = "com.colornative.version";
-	private static final String PREF_KEY_DEPRECATED_VERSION = "com.colornative.util.version.deprecated_version";
-	private static final String PREF_KEY_AVAILABLE_VERSION = "com.colornative.util.version.current_version";
-	private static final String PREF_KEY_LAST_CHECK = "com.colornative.util.version.last_check";
+	private static final String PREF_KEY_DEPRECATED_VERSION = "com.colornative.plugin.version.deprecated_version";
+	private static final String PREF_KEY_AVAILABLE_VERSION = "com.colornative.plugin.version.current_version";
+	private static final String PREF_KEY_LAST_CHECK = "com.colornative.plugin.version.last_check";
 
 	/**
 	 * If this flag is set, the user will not be allowed to use the app if it's

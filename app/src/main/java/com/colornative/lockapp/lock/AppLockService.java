@@ -21,9 +21,7 @@ import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.colornative.lockapp.Constants;
 import com.colornative.lockapp.ui.MainActivity;
-import com.colornative.lockapp.util.LaunchInterstitialActivity;
 import com.colornative.lockapp.util.PrefUtils;
 import com.colornative.lockapp.version.VersionManager;
 import com.colornative.lockapp.version.VersionUtils;

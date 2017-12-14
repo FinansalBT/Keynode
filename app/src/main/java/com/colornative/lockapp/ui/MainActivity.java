@@ -4,7 +4,7 @@ import com.colornative.lockapp.lock.AppLockService;
 import com.colornative.lockapp.lock.LockService;
 import com.colornative.lockapp.ui.NavigationFragment.NavigationListener;
 import com.colornative.lockapp.util.PrefUtils;
-import com.colornative.util.DialogSequencer;
+import com.colornative.plugin.DialogSequencer;
 
 import android.app.Activity;
 import android.app.SearchManager;

@@ -1,4 +1,4 @@
-package com.colornative.util;
+package com.colornative.plugin;
 
 import java.io.BufferedReader;
 import java.io.IOException;

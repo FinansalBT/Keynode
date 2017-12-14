@@ -314,7 +314,7 @@
     <string name="pref_dlgmsg_recovery_code">Dein aktueller Code ist: %s</string>
     <!-- Recovery intent chooser -->
     <string name="recovery_intent_tit">Wiederherstellungscode senden</string>
-    <string name="recovery_intent_message">Dein Twinone App Locker Wiederherstellungscode.\nUm auf dein Gerät wieder zugreifen und um das Passwort wieder ändern zu können, öffne bitte das Wahlfeld und rufe folgende Nummer an: %s</string>
+    <string name="recovery_intent_message">Dein Keynode Wiederherstellungscode.\nUm auf dein Gerät wieder zugreifen und um das Passwort wieder ändern zu können, öffne bitte das Wahlfeld und rufe folgende Nummer an: %s</string>
     <!-- Da menu -->
     <string name="apps_menu_sort">Sortieren</string>
     <string name="apps_menu_lock_all">Alle sperren</string>
